@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.niit.backend.CategoryTestCase" time="2.264" errors="0" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\DT\Main Project\backend"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\803\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\DT\Main Project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3404116974540199322.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;&quot;;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;E:\NIIT DEVOPS\apache-maven-3.5.4\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\:&quot;;C:\Program Files\Java\jdk1.8.0_171\bin;E:\NIIT DEVOPS\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_171\bin;F:\Setup\eclipse-jee-luna-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\803"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="803"/>
+    <property name="java.class.path" value="/F:/Setup/eclipse-jee-luna-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.0.20140605-2032/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\DT\Main Project\backend\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.niit.backend.CategoryTestCase" name="addCategory" time="2.264">
+    <skipped/>
+    <system-out>Hibernate: alter table CartItem add column itemId integer not null
+Hibernate: alter table CartItem add column customerId varchar(255)
+Hibernate: alter table CartItem add column price double not null
+Hibernate: alter table CartItem add column productId integer
+Hibernate: create table CartTable (cartId integer not null, customerId varchar(255), user_email varchar(255), primary key (cartId))
+Hibernate: create table CategoryTable (categoryId integer not null, categoryName varchar(255), primary key (categoryId))
+Hibernate: create table OrderTable (orderId integer not null, cardNumber varchar(255), cvv varchar(255), month integer, nameOnCard varchar(255), totalPrice double, year integer, addressId integer, email varchar(255), primary key (orderId))
+Hibernate: create table ProductTable (productId integer not null, categoryId integer not null, description varchar(255), imgname varchar(255), price float not null, productName varchar(255), quantity integer not null, status varchar(255), supplierId integer not null, primary key (productId))
+Hibernate: create table SupplierTable (supplierId integer not null, supplierName varchar(255), primary key (supplierId))
+Hibernate: create table user_detail (email varchar(255) not null, enabled boolean not null, name varchar(255), password varchar(255), phone varchar(255), role varchar(255), primary key (email))
+Hibernate: create table UserAddressTable (id integer not null, city varchar(255), houseNumber integer not null, locality varchar(255), pinCode varchar(255), state varchar(255), email varchar(255), primary key (id))
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Hibernate: alter table CartItem add constraint FKncovd7rxef6fusvp8wipvhu41 foreign key (cart_cartId) references CartTable
+Hibernate: alter table CartItem add constraint FKt99084rngwja2tf5ghw2hk5kx foreign key (productId) references ProductTable
+Hibernate: alter table CartTable add constraint FKe01krm85n8nnaym8qumttxt0o foreign key (user_email) references user_detail
+Hibernate: alter table OrderTable add constraint FKdabgqefpig7ra1rucl1cftqk7 foreign key (addressId) references UserAddressTable
+Hibernate: alter table OrderTable add constraint FK1brgg9u0h179dq5e86ectcrob foreign key (email) references user_detail
+Hibernate: alter table ProductTable add constraint FKkooocxu8hwbbv0tveapg0j2gc foreign key (categoryId) references CategoryTable
+Hibernate: alter table ProductTable add constraint FKqbbjhi6gny1c14oofvbwqfjp2 foreign key (supplierId) references SupplierTable
+Hibernate: alter table UserAddressTable add constraint FKmooscfhabljwoi71reniwa72u foreign key (email) references user_detail
+</system-out>
+    <system-err>Sep 20, 2018 4:34:25 PM org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fffcba5: startup date [Thu Sep 20 16:34:25 IST 2018]; root of context hierarchy
+Sep 20, 2018 4:34:26 PM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.h2.Driver
+Sep 20, 2018 4:34:26 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {5.2.7.Final}
+Sep 20, 2018 4:34:26 PM org.hibernate.cfg.Environment &lt;clinit&gt;
+INFO: HHH000206: hibernate.properties not found
+Sep 20, 2018 4:34:26 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
+INFO: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+Sep 20, 2018 4:34:26 PM org.hibernate.dialect.Dialect &lt;init&gt;
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Sep 20, 2018 4:34:27 PM org.hibernate.validator.internal.util.Version &lt;clinit&gt;
+INFO: HV000001: Hibernate Validator 5.4.1.Final
+Sep 20, 2018 4:34:27 PM org.springframework.orm.hibernate5.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2f4948e4] of Hibernate SessionFactory for HibernateTransactionManager
+</system-err>
+  </testcase>
+  <testcase classname="com.niit.backend.CategoryTestCase" name="fetchAllCategories" time="0"/>
+</testsuite>
